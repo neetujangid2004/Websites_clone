@@ -220,3 +220,51 @@
     color: #007185;
     text-decoration: none;
 }
+
+/** main **/
+main {
+    background-color: #e2e7e6;
+}
+
+/** Shop section first **/
+.shop-section-first {
+    height: 40vh;
+    display: flex;
+    position: relative;
+}
+
+.box-container-first {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    background-color: transparent;
+    width: 100%;
+    padding: 5px;
+    z-index: 1;
+    top: -75%;
+}
+
+.product-box {
+    border: none;
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content a {
+    text-decoration: none;
+    color: #007185;
+}
